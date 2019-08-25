@@ -1,0 +1,13 @@
+.footer{
+    background-color: #343a40;
+    color: #6c757d;
+    padding: 50px;
+}
+.footer-heading{
+    color: white;
+}
+.foot-icon{
+  width:30px !important;
+  height: 30px !important;
+  margin-left: 5px !important;
+}

@@ -1,6 +1,6 @@
 .back{    
-  padding: 40px 60px 150px 60px;
-  background-color:  #0000008c;
+  padding: 150px 520px 120px 60px;
+  background-color: #482b698c;
   position: relative;
   z-index: 2;
 }
@@ -13,11 +13,13 @@
 .sub-text{
   color: white;
   font-style: italic;
-  background-color: black;
 }
-img{
-  width: 210px;
-  height: 150px;
+.pop-head{
+  margin-top: 20px;
+}
+.artist-img{
+  width: 350px;
+  height: 250px;
 }
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {

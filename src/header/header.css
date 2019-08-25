@@ -1,0 +1,18 @@
+.navbar{
+    position: fixed;
+    z-index: 3;
+    width: -webkit-fill-available;
+    background-color: white;
+}
+.web-name{
+    color: #ff0030;
+    font-family: cursive;
+}
+.page-head{
+    margin-right: 30px;
+    color: #3e3b21;
+}
+.logo{
+    width: 50px;
+    height: 40px;
+}
