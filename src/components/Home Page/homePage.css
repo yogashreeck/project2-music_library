@@ -1,0 +1,36 @@
+.back{    
+  padding: 40px 60px 150px 60px;
+  background-color:  #0000008c;
+  position: relative;
+  z-index: 2;
+}
+.main-text{
+  color: yellow;
+  font-size: 60px;
+  font-style: italic;
+  font-family: cursive;
+}
+.sub-text{
+  color: white;
+  font-style: italic;
+  background-color: black;
+}
+img{
+  width: 210px;
+  height: 150px;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .homeImage {
+    width: 1078px; 
+    height:480px;
+  }
+}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .homeImage {
+    width: 1439px; 
+    height: 480px;
+  }
+} */
