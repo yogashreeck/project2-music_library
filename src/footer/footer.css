@@ -11,3 +11,19 @@
   height: 30px !important;
   margin-left: 5px !important;
 }
+/*Extra small devices ( phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ div.small{
+   display: none;
+ }
+ .about{
+  font-size: 65%;
+ }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (width: 768px) {
+  .email{
+    width: 145%;
+  }
+} 
