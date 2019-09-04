@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import logo from './images/logo.png'
 import './header.css'
 
@@ -17,10 +18,12 @@ class Header extends Component {
             </button>
             <div class="collapse navbar-collapse " id="ftco-nav">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item page-head">Album</li>
-                <li class="nav-item page-head">Songs</li>
-                <li class="nav-item page-head">Join</li>
-                <li class="nav-item page-head">Login</li>
+      
+                <li class="nav-item"><Link to="#" class="nav-link">Album</Link></li>
+                <li class="nav-item"><Link to="#" class="nav-link">Songs</Link></li>
+                <li class="nav-item"><Link to="./singup" class="nav-link">Register</Link></li>
+                <li class="nav-item"><Link to="/login" class="nav-link">Login</Link></li>
+                
               </ul>
             </div>
           </div>
